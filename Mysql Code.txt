@@ -1,0 +1,12 @@
+CREATE DATABASE Sample;
+USE Sample;
+CREATE TABLE Movies (Title VARCHAR(30), Actor VARCHAR(30), Actress VARCHAR(30), Director VARCHAR(30), Year INT(4));
+INSERT INTO Movies ('Interstellar','Matthew McConaughey','Anne Hathaway','Christopher Nolan','2014');
+INSERT INTO Movies ('Predestination','Ethan Hawke','Sarah Snook ','Michael Spierig, Peter Spierig','2014');
+INSERT INTO Movies ('Prestige','Christian Bale','Scarlett Johansson','Christopher Nolan','2006');
+INSERT INTO Movies ('The Dark Knight','Christian Bale',' Anne Hathaway','Christopher Nolan','2008');
+INSERT INTO Movies ('The Wolf of Wall Street','Leonardo DiCaprio','Margot Robbie','Martin Scorsese','2014');
+SHOW DATABASES
+USE Sample;
+SELECT * FROM Movies
+SELECT * FROM Movies WHERE Actor='Christian Bale';
